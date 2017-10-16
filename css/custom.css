@@ -1,0 +1,364 @@
+.v4-tease {
+    display: block;
+    padding: 15px 20px;
+	margin: 0;
+    /* font-weight: 700; */
+	font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background-color: #0275d8;
+}
+#emailList li.list-group-item {
+	word-wrap: break-word;
+}
+.half-rule {
+    width: 100px;
+    margin: 40px auto;
+}
+#footer p { font-size: 11px; }
+#footer .col-left p, #footer .col-right p, #footer h4, footer .footer-bar { text-align: center; }
+@media (min-width: 768px) {
+	#footer .col-left p { text-align: justify; }	
+	#footer .col-left h4 { text-align: left; }	
+	#footer .col-right p { text-align: right; }
+	#footer .col-right h4 { text-align: right; }
+	.dl-horizontal dt { width: 100px; }
+	.dl-horizontal dd { margin-left: 120px; }
+	.events-title { font-size: 24px !important; }
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+.table-panel th, .table-panel td {
+	vertical-align: middle;
+}
+.modal-scrollfix.modal-scrollfix {
+    overflow-y: hidden;
+}
+
+.filterForm [class*="col-"] {
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-bottom: 10px;
+}
+
+.popupForm [class*="col-"] {
+	padding-left: 0px;
+	padding-right: 2px;
+}
+
+
+.list-group-item>.action {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Main page */
+/* -- Circle Tiles */
+.circle-tile {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.circle-tile-heading {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto -30px;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 100%;
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+
+.circle-tile-heading .fa {
+    line-height: 55px;
+}
+
+.circle-tile-content {
+    padding-top: 35px;
+}
+
+.circle-tile-number {
+    padding: 5px 0 15px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.circle-tile-description {
+    text-transform: uppercase;
+	padding: 5px 10px;
+	min-height: 60px;
+}
+
+.circle-tile-footer {
+    display: block;
+    padding: 5px;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.1);
+    transition: all ease-in-out .3s;
+}
+
+.circle-tile-footer:hover {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.2);
+}
+
+.circle-tile-heading.dark-blue:hover {
+    background-color: #2e4154;
+}
+
+.circle-tile-heading.green:hover {
+    background-color: #138f77;
+}
+
+.circle-tile-heading.orange:hover {
+    background-color: #da8c10;
+}
+
+.circle-tile-heading.blue:hover {
+    background-color: #2473a6;
+}
+
+.circle-tile-heading.red:hover {
+    background-color: #cf4435;
+}
+
+.circle-tile-heading.purple:hover {
+    background-color: #7f3d9b;
+}
+
+
+/*Table*/
+.table-responsive {
+    border: 0px solid #ddd;
+}
+
+.event-list {
+	background-color: #eeeeee;
+}
+.item-content {
+	max-width: 600px;
+	margin: auto;
+	padding: 0 30px 20px 30px;
+}
+.carousel-inner {
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+.carousel-control {
+    background-image: none !important;
+	width: 7% !important;
+}
+.carousel-indicators {
+    bottom: 5px !important;
+	margin-bottom: 0;
+}
+
+
+/* -- Background Helper Classes */
+
+/* Use these to cuztomize the background color of a div. These are used along with tiles, or any other div you want to customize. */
+.bg-gray{color:#000;background-color:#d2d6de !important}
+.bg-gray-light{background-color:#f7f7f7}
+.bg-black{background-color:#111 !important}
+.bg-red{background-color:#dd4b39 !important}
+.bg-yellow{background-color:#f39c12 !important}
+.bg-aqua{background-color:#00c0ef !important}
+.bg-blue{background-color:#0073b7 !important}
+.bg-light-blue{background-color:#3c8dbc !important}
+.bg-green{background-color:#00a65a !important}
+.bg-navy{background-color:#001f3f !important}
+.bg-teal{background-color:#39cccc !important}
+.bg-olive{background-color:#3d9970 !important}
+.bg-lime{background-color:#01ff70 !important}
+.bg-orange{background-color:#ff851b !important}
+.bg-fuchsia{background-color:#f012be !important}
+.bg-purple{background-color:#605ca8 !important}
+.bg-maroon{background-color:#d81b60 !important}
+/* -- Text Color Helper Classes */
+
+ .text-dark-blue {
+    color: #34495e;
+}
+
+.text-green {
+    color: #16a085;
+}
+
+.text-blue {
+    color: #2980b9;
+}
+
+.text-orange {
+    color: #f39c12;
+}
+
+.text-red {
+    color: #e74c3c;
+}
+
+.text-purple {
+    color: #8e44ad;
+}
+
+.text-faded {
+    color: rgba(255,255,255,0.7);
+}
+/* Event & Calender Icon */
+.events-title { font-size: 18px; }
+
+.calendar{
+	padding-top:5px;
+	width:80px;
+	background:#ededef;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededef), to(#ccc)); 
+	background: -moz-linear-gradient(top,  #ededef,  #ccc); 
+	font:bold 30px/60px "Lucida Sans Unicode", Arial Black, Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#000;
+  
+	text-shadow:#fff 0 1px 0;	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;	
+	position:absolute;
+	-moz-box-shadow:0 2px 2px #888;
+	-webkit-box-shadow:0 2px 2px #888;
+	box-shadow:0 2px 2px #888;
+	}
+
+.calendar em{
+	display:block;
+	font:12px/30px "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-shadow:#00365a 0 -1px 0;	
+	background:#04599a;
+	background:-webkit-gradient(linear, left top, left bottom, from(#04599a), to(#00365a)); 
+	background:-moz-linear-gradient(top,  #04599a,  #00365a); 
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;	
+	border-bottom-right-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;	
+	border-bottom-left-radius:3px;	
+	border-top:1px solid #00365a;
+	}
+
+.calendar:before, .calendar:after{
+	content:'';
+	float:left;
+	position:absolute;
+	top:5px;	
+	width:8px;
+	height:8px;
+	background:#111;
+	z-index:1;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	-moz-box-shadow:0 1px 1px #fff;
+	-webkit-box-shadow:0 1px 1px #fff;
+	box-shadow:0 1px 1px #fff;
+	}
+.calendar:before{left:11px;}	
+.calendar:after{right:11px;}
+
+.calendar em:before, .calendar em:after{
+	content:'';
+	float:left;
+	position:absolute;
+	top:-5px;	
+	width:4px;
+	height:14px;
+	background:#dadada;
+	background:-webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#aaa)); 
+	background:-moz-linear-gradient(top,  #f1f1f1,  #aaa); 
+	z-index:2;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	}
+.calendar em:before{left:13px;}	
+.calendar em:after{right:13px;}	
+
+
+/** 10. Footer
+ **************************************************************** **/
+footer  {
+	color:#87919F;
+	font-size:13px;
+	overflow:hidden;
+	background:#2E363F;
+	padding: 0 !important;
+	display:block;
+}
+
+footer .footer-content h4 {
+	color:#fff !important;
+	font-weight:200;
+	font-size:16px;
+}
+
+footer .footer-bar {
+	background:#292f38;
+	display:block;
+	text-transform:uppercase;
+	position:relative;
+	padding:20px 0;
+	border-bottom:#403E44 1px dashed;
+}
+
+/** Admin Panel **/
+.info-box {
+    display: block;
+    min-height: 90px;
+    background: #ecf0f5;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.info-box-icon {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+    background: rgba(0,0,0,0.2);
+}
+
+.info-box-icon .fa {
+    line-height: 90px;
+}
+
+.info-box-content {
+    padding: 5px 10px;
+    margin-left: 90px;
+}
+
+.info-box-text {
+    text-transform: uppercase;
+}
+
+.info-box-number {
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.bg-red, .bg-yellow, .bg-aqua, .bg-blue, .bg-light-blue, .bg-green, .bg-navy, .bg-teal, .bg-olive, .bg-lime, .bg-orange, .bg-fuchsia, .bg-purple, .bg-maroon, .bg-black {
+    color: #fff !important;
+}

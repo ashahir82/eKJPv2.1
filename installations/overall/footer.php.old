@@ -1,0 +1,24 @@
+<footer class="section" id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-left">
+				<h4>Penafian</h4>
+				<p class="text-justify">Jabatan Tenaga Manusia dan Institut Latihan Perindustrian Kuala Lumpur
+				adalah tidak bertanggungjawab bagi apa-apa kehilangan atau kerugian yang
+				disebabkan oleh penggunaan mana-mana maklumat yang diperolehi dari laman
+				web ini serta tidak boleh ditafsirkan sebagai ejen kepada, ataupun syarikat
+				yang disyorkan oleh Institut latihan Perindustrian Kuala Lumpur.</p>
+				<p class="text-center">Hakcipta Terpelihara <?php echo date("Y"); ?> © Institut latihan Perindustrian Kuala Lumpur</p>
+			</div>
+			<div class="col-sm-6 col-right">
+				<h4 class="text-right">Pertanyaan</h4>
+				<p class="text-right">Bahagian Hubungan Industri dan Komunikasi Korporat (HIKK)
+				<br>Institut Latihan Perindustrian, Jalan Kuchai Lama,
+				<br>58200 Wilayah Persekutuan Kuala Lumpur
+				<br>Tel : 03-79817495 | 03-79817496 (samb : 158)
+				<br>Fax : 03-79816649 | 03-79816646
+				<br>Email :cess@jtm.gov.my | baharicessilpkl@gmail.com</p>
+			</div>
+		</div>
+	</div>
+</footer>

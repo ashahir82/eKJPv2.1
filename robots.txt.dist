@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /ajax/
+Disallow: /core/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /js/
+Disallow: /less/
+Disallow: /overall/
+Disallow: /qr_img/
+Disallow: /scss/
+Disallow: /tcpdf/
+Disallow: /widgets/
